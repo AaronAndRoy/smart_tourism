@@ -4,7 +4,7 @@ from app.routes.auth import auth_blueprint
 from app.routes.recommendation import recommendation_bp
 from app.routes.feedback import feedback_bp
 import os
-#jkdsfhsdjkfshljk
+
 def create_app():
     """
     Create and configure the Flask app.
