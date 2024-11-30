@@ -1,8 +1,8 @@
 from flask import Flask
 from flask_cors import CORS
-from app.models import db
+#from app.models import db
 from app.routes import register_routes
-from app.db import init_mysql
+from app.db import db, init_mysql
 
 def create_app():
 

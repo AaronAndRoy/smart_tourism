@@ -1,7 +1,7 @@
 # routes/__init__.py
-from auth import auth_blueprint
-from feedback import feedback_bp
-from recommendation import recommendation_bp
+from app.routes.auth import auth_blueprint
+from app.routes.feedback import feedback_bp
+from app.routes.recommendation import recommendation_bp
 
 def register_routes(app):
     # Register all blueprints to the Flask app.

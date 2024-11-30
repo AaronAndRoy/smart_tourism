@@ -4,6 +4,8 @@ from app.routes.auth import auth_blueprint
 from app.routes.recommendation import recommendation_bp
 from app.routes.feedback import feedback_bp
 import os
+import sys
+#sys.path.insert(0, 'Users\Administrator\desktop\fin')
 
 def create_app():
     """

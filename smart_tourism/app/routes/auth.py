@@ -29,7 +29,7 @@ def register():
 
     try:
         cursor = mysql.connection.cursor()
-        cursor.execute("SELECT * FROM user WHERE email = %s", (email,))
+        cursor.execute("SELECT * FROM users WHERE email = %s", (email,))
         account = cursor.fetchone()
 
         if account:

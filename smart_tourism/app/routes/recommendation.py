@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from db import mysql
+from app.db import mysql
 
 recommendation_bp = Blueprint('recommend', __name__)
 

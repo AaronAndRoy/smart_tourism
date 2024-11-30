@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from db import mysql
+from app.db import mysql
 
 feedback_bp = Blueprint('feedback', __name__)
 
