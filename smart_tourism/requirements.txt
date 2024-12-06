@@ -14,4 +14,4 @@ marshmallow-sqlalchemy==0.28.1
 python-dotenv==0.21.0
 pytest==7.4.0
 Flask-JWT-Extended==4.4.4
-pip install pytest flask-testing
+flask-testing==0.8.1
